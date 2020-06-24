@@ -17,6 +17,6 @@ while ( range < names.length) {
 }
 
 if (pos == true ){
-  var turn = names.indexOf(addedName);
+  var turn = names.indexOf(addedName) + 1 ;
   console.log("Your position in alphabetical order is " + turn);
 }
